@@ -6,6 +6,8 @@ on:
     branches:
       - main
       - 'feature/*'
+env:
+  MONGO_USERNAME: superuser
     
 jobs:
     unit-testing:
